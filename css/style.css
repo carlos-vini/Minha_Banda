@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #506266;
+}
+
+.container{
+    background-color: #10454F;
+    padding: 50px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #fff;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.big-box img{
+    border-radius: 10px;
+}
+
+.Lagum{
+    padding: 10px;
+    background: linear-gradient(180deg, #DBD7D1 0%, #61788C 36.46%, #D9933D 70.31%);
+    border-radius: 15px;
+    border: 5px solid #000;
+
+}
+
+ img{
+    border: 3px solid #000;
+}
+
+.RHCP{
+    padding: 10px;
+    background-color: #eeb9c0;
+    border: 5px solid #000;
+    border-radius: 15px;
+}
+
+.Coldplay{
+    padding: 10px;
+    background-color: blueviolet;
+    border: 5px solid #000;
+    border-radius: 15px;
+}
+
+.Maroon5{
+    padding: 10px;
+    background-color: brown;
+    border: 5px solid #000;
+    border-radius: 15px;    
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

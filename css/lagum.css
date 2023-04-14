@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Titan+One&display=swap');
+
+body{
+    background-color: #D9933D;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 699px;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    background-color: #DBD7D1;
+}
+
+nav a{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    
+    color: #000000;    
+}
+
+nav a:hover{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    
+    color: #D9933D;  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    list-style: none;
+}
+
+header .div-header h2{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    
+    color: #000000;
+
+    width: 399px;
+    margin-bottom: 38px;
+
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: linear-gradient(180deg, #DBD7D1 0%, #61788C 85.42%, rgba(217, 147, 61, 0.1) 100%);
+}
+
+.div-header a{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.035px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #000000;
+
+    padding: 15px 84px;
+    border: 1px solid #000000;
+    border-radius: 25.025px;
+}
+
+h1{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: center;
+    margin-bottom: 74px;
+    
+    color: #000000;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    
+    color: #000000;
+}
+
+.conteudo img{
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.section1{
+    padding: 40px 0;
+}
+
+.text-sobre{
+    width: 652px;
+    height: 595px;
+}
+
+.section2{
+    background: linear-gradient(180deg, rgba(166, 153, 91, 0) 0%, #A6995B 3.12%, #A6995B 17.89%, #A6995B 93.75%, rgba(166, 153, 91, 0) 100%);
+    padding: 40px 0;
+}
+
+.music1, .music2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 50px;
+}   
+
+#player1{
+    background: #61788C;
+    border-radius: 34.2222px;
+    padding: 20px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#player2{
+    background: #D98032;
+    border-radius: 34.2222px;
+    padding: 20px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#player3{
+    background: #61788C;
+    border-radius: 34.2222px;
+    padding: 20px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#player4{
+    background: #D98032;
+    border-radius: 34.2222px;
+    padding: 20px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section3{
+    padding: 60px 0;
+}
+
+.player-video1, .player-video2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 40px;
+}
+
+footer{
+    font-family: 'Titan One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    padding: 50px 0;
+    background: #61788C;
+
+    text-align: center;
+}
