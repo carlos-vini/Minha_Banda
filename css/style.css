@@ -12,13 +12,14 @@ body{
 
 /* Início Header */
 nav{
+    width: 1600px;
+    max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 550px;
     align-items: center;
     padding-top: 31px;
     padding-bottom: 22px;
-    background-color: #DBD7D1;
 }
 
 nav a{
@@ -50,6 +51,15 @@ nav ul{
     list-style: none;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #DBD7D1 0%, #61788C 85.42%, rgba(217, 147, 61, 0.1) 100%);
+}
+
 header nav .nav-img img{
     width: 150px;
 }
@@ -73,12 +83,12 @@ header .div-header .div-header-img img{
 }
 
 .div-header{
+    width: 1600px;
+    max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 150px;
-
-    background: linear-gradient(180deg, #DBD7D1 0%, #61788C 85.42%, rgba(217, 147, 61, 0.1) 100%);
+    gap: 430px;
 }
 
 .div-header a:hover{
@@ -94,7 +104,7 @@ header .div-header .div-header-img img{
 
     padding: 15px 70px;
     border: 1px solid #DBD7D1;
-    border-radius: 25.px;
+    border-radius: 25px;
 }
 
 .div-header a{
